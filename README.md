@@ -1,12 +1,12 @@
-# 🍅 Tomato Disease Detection using YOLOv8
+#  Tomato Disease Detection using YOLOv8
 
-## 📌 Project Overview
+##  Project Overview
 
 This project uses YOLOv8 Object Detection to detect and classify tomato leaf diseases using deep learning techniques. The model identifies infected regions using Bounding Box Detection and predicts disease classes automatically. The project was developed and trained in Google Colab using the Ultralytics YOLOv8 framework.
 
 ---
 
-# 🚀 Technologies Used
+#  Technologies Used
 
 * Python
 * YOLOv8
@@ -19,7 +19,7 @@ This project uses YOLOv8 Object Detection to detect and classify tomato leaf dis
 
 ---
 
-# 📂 Dataset Structure
+#  Dataset Structure
 
 dataset/
 
@@ -51,7 +51,7 @@ The dataset contains:
 
 ---
 
-# 🧠 How YOLOv8 Works
+#  How YOLOv8 Works
 
 YOLO (You Only Look Once) is a real-time object detection algorithm.
 
@@ -77,7 +77,7 @@ The model:
 * outputs confidence scores
 
 This project uses:
-✅ Bounding Box Annotation
+ Bounding Box Annotation
 
 NOT:
 
@@ -91,7 +91,7 @@ Each image contains:
 
 ---
 
-# 📌 Classes Detected
+#  Classes Detected
 
 * Bacterial Spot
 * Early_Blight
@@ -103,7 +103,7 @@ Each image contains:
 
 ---
 
-# 📊 Epoch Experiment Analysis
+#  Epoch Experiment Analysis
 
 To understand how training epochs affect model performance, multiple experiments were conducted using different epoch values.
 
@@ -117,17 +117,17 @@ The purpose of these experiments was to analyze whether increasing epochs always
 
 ---
 
-# 📈 Epoch Comparison Results
+#  Epoch Comparison Results
 
 | Epochs | Precision | Recall | mAP50 | mAP50-95 | Observation          |
 | ------ | --------- | ------ | ----- | -------- | -------------------- |
 | 20     | 72.4%     | 66.8%  | 65.7% | 43.2%    | Model still learning |
-| 50     | 76.4%     | 72.5%  | 76.6% | 47.6%    | Best Performance ✅   |
-| 70     | 72.4%     | 66.8%  | 65.7% | 43.2%    | Overfitting ⚠️       |
+| 50     | 76.4%     | 72.5%  | 76.6% | 47.6%    | Best Performance    |
+| 70     | 72.4%     | 66.8%  | 65.7% | 43.2%    | Overfitting        |
 
 ---
 
-# ⚠️ Understanding Overfitting
+#  Understanding Overfitting
 
 After 50 epochs, the model started suffering from overfitting.
 
@@ -156,7 +156,7 @@ is very important in deep learning systems.
 
 ---
 
-# 📌 Why 50 Epochs Performed Best
+#  Why 50 Epochs Performed Best
 
 At 50 epochs:
 
@@ -166,7 +166,7 @@ At 50 epochs:
 * classification stabilized
 
 Result:
-✅ Highest mAP50 Accuracy (76.6%)
+ Highest mAP50 Accuracy (76.6%)
 
 Therefore:
 
@@ -174,7 +174,7 @@ Therefore:
 
 ---
 
-# 📊 Final Model Performance
+#  Final Model Performance
 
 | Metric    | Value |
 | --------- | ----- |
@@ -185,7 +185,7 @@ Therefore:
 
 ---
 
-# 📌 Understanding Metrics
+#  Understanding Metrics
 
 ### Precision
 
@@ -205,7 +205,7 @@ Stricter localization accuracy metric.
 
 ---
 
-# 📉 Training Graph Analysis
+#  Training Graph Analysis
 
 ![Training Graph](images/training_graph.png)
 
@@ -231,7 +231,7 @@ The experiment demonstrated that:
 
 ---
 
-# 📌 Dataset Challenges
+#  Dataset Challenges
 
 The project faced several dataset-related challenges:
 
@@ -263,12 +263,12 @@ Reasons:
 
 ---
 
-# 📌 Model Export
+#  Model Export
 
 The trained model was exported to:
 
-✅ PyTorch (.pt)
-✅ ONNX (.onnx)
+- PyTorch (.pt)
+- ONNX (.onnx)
 
 ONNX allows deployment on:
 
@@ -279,7 +279,7 @@ ONNX allows deployment on:
 
 ---
 
-# 📸 Project Outputs
+#  Project Outputs
 
 This repository includes:
 
@@ -292,9 +292,8 @@ This repository includes:
 
 ---
 
-# 📸 Sample Predictions
 
-## 📸 Sample Predictions
+##  Sample Predictions
 
 ![Sample Predictions](val_batch0_pred.jpg)
 
@@ -306,7 +305,7 @@ Example:
 
 ---
 
-# 📊 Confusion Matrix
+#  Confusion Matrix
 
 ![Confusion Matrix](images/confusion_matrix_resized.png)
 
@@ -318,7 +317,7 @@ The confusion matrix visualizes:
 
 ---
 
-# 🌍 Real-World Applications
+#  Real-World Applications
 
 This project can be used in:
 
@@ -340,7 +339,7 @@ The model:
 
 ---
 
-# 📌 Future Improvements
+#  Future Improvements
 
 Possible future enhancements:
 
@@ -353,12 +352,12 @@ Possible future enhancements:
 
 ---
 
-# ✅ Conclusion
+#  Conclusion
 
 This project successfully implemented YOLOv8-based tomato disease detection using object detection techniques.
 
 The final model achieved:
-✅ 76.6% mAP50 Accuracy
+ 76.6% mAP50 Accuracy
 
 The project demonstrates:
 
