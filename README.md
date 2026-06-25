@@ -294,7 +294,11 @@ This repository includes:
 
 # 📸 Sample Predictions
 
-![Predictions](/content/runs/detect/tomato_yolo/exp1/val_batch0_pred.jpg)
+## 📸 Sample Predictions
+
+<p align="center">
+  <img src="images/val_batch0_pred.jpg" width="900"/>
+</p>
 
 Example:
 
@@ -313,18 +317,6 @@ The confusion matrix visualizes:
 * correct classifications
 * class confusion
 * weak performing classes
-
----
-
-# 📈 Training Graph
-
-![Training Graph](images/training_graph.png)
-
-The graph visualizes:
-
-* train loss
-* validation loss
-* mAP50 improvement
 
 ---
 
