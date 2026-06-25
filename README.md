@@ -296,9 +296,7 @@ This repository includes:
 
 ## 📸 Sample Predictions
 
-<p align="center">
-  <img src="images/val_batch0_pred.jpg" width="900"/>
-</p>
+![Sample Predictions](val_batch0_pred.jpg)
 
 Example:
 
